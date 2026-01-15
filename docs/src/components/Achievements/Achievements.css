@@ -1,0 +1,160 @@
+/* Achievements Section */
+.achievements {
+  background: #ffffff;
+}
+
+.achievements-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+  padding: 15px 0;
+}
+
+.achievements-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  padding: 0 10px;
+}
+
+.achievement-card {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid #000000;
+  transition: all 0.3s ease;
+  text-align: center;
+  flex: 0 0 calc(33.333% - 1rem);
+  margin: 0 0.5rem;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.achievement-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  z-index: 5;
+}
+
+.achievement-icon {
+  width: 60px;
+  height: 60px;
+  background: #000000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.achievement-content h3 {
+  color: #000000;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.achievement-content p {
+  color: #333333;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.achievement-date {
+  color: #ff6b35;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.carousel-arrow {
+  background: #000000;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  z-index: 10;
+}
+
+.carousel-arrow:hover {
+  background: #ff6b35;
+  transform: scale(1.1);
+}
+
+.carousel-arrow:active {
+  transform: scale(0.95);
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #cccccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: #ff6b35;
+  transform: scale(1.2);
+}
+
+.dot:hover {
+  background: #000000;
+}
+
+/* Mobile responsiveness for carousel */
+@media (max-width: 768px) {
+  .achievement-card {
+    flex: 0 0 calc(100% - 1rem);
+  }
+  
+  .carousel-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .achievements-carousel {
+    padding: 0 1rem;
+  }
+  
+  .carousel-arrow {
+    margin: 0 0.25rem;
+  }
+}
