@@ -1,0 +1,128 @@
+/* Resume Section */
+.resume {
+  padding: 100px 0;
+  background: #ffffff;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.resume .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.resume .section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.resume .section-description {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.resume-buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resume-btn {
+  padding: 16px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  min-width: 200px;
+  text-align: center;
+}
+
+.resume-btn i {
+  margin-right: 0.5rem;
+}
+
+.resume-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background: #f8f8f8;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.resume-document:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.resume-document i {
+  font-size: 3rem;
+  color: #ff6b35;
+}
+
+.resume-document span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume {
+    padding: 60px 0;
+  }
+  
+  .resume .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .resume-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .resume-btn {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume .section-title {
+    font-size: 2rem;
+  }
+  
+  .resume .section-description {
+    font-size: 1rem;
+  }
+  
+  .resume-btn {
+    min-width: 200px;
+    padding: 14px 24px;
+  }
+}

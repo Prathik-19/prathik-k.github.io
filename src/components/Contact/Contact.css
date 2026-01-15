@@ -1,0 +1,94 @@
+/* Contact Section */
+.contact {
+  background: #ffffff;
+}
+
+.contact .section-title {
+  margin-bottom: 1.5rem;
+}
+
+.contact-content-centered {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-info-centered {
+  padding: 2rem 0;
+}
+
+.contact-subtitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contact-description {
+  color: #333333;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.contact-methods {
+  margin-bottom: 3rem;
+}
+
+.contact-method {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  color: #333333;
+  font-size: 1.1rem;
+}
+
+.contact-method i {
+  color: #ff6b35;
+  width: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.social-link {
+  width: 60px;
+  height: 60px;
+  background: #000000;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.social-link:hover {
+  background: #ff6b35;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-content-centered {
+    padding: 0 1rem;
+  }
+  
+  .contact-method {
+    font-size: 1rem;
+  }
+  
+  .social-link {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+  }
+}
