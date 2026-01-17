@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'Serene - AI Mental Health Chatbot',
-      description: 'CruzHacks 2022 Best Design Award winner. Engineered an AI-driven mental health support chatbot, integrating machine learning and NLP techniques with keyword detection for relevant user responses.',
+      description: 'CruzHacks 2022 hackathon project. Engineered an AI-driven mental health support chatbot, integrating machine learning and NLP techniques with keyword detection for relevant user responses.',
       technologies: ['Python', 'React', 'Firebase', 'PyTorch', 'Tkinter', 'NLP'],
       github: 'https://github.com/Prathik-19/Serene'
     },

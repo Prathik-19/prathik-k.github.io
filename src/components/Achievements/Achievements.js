@@ -5,9 +5,21 @@ const Achievements = () => {
   const achievements = [
     {
       icon: 'fas fa-briefcase',
-      title: 'Full Stack Engineer I at Cisco Systems',
-      description: 'Joined Cisco as a Full Stack Engineer, developing internal tools for global logistics workflows and building AI-powered virtual assistants for enterprise solutions.',
+      title: 'Software Engineer - Cisco Systems',
+      description: 'Joined Cisco as a Software Engineer, developing full-stack internal tools for global logistics workflows and building AI-powered virtual assistants for enterprise solutions.',
       date: 'July 2025 - Present'
+    },
+    {
+      icon: 'fas fa-certificate',
+      title: 'Machine Learning with Python: Foundations',
+      description: 'Completed comprehensive course on machine learning fundamentals using Python. Learned how machines learn through different approaches, data collection and preparation techniques, and step-by-step guidance on building, evaluating, and interpreting machine learning models.',
+      date: 'September 2025'
+    },
+    {
+      icon: 'fas fa-certificate',
+      title: 'Prompt Engineering & Programming with OpenAI - Columbia University',
+      description: 'Mastered fundamentals of prompt engineering to effectively guide LLM outputs, best practices for designing clear and efficient prompts, understanding model constraints and safe AI integration, and practical techniques for automating tasks and enhancing workflows with AI.',
+      date: 'August 2025'
     },
     {
       icon: 'fas fa-graduation-cap',
@@ -18,14 +30,8 @@ const Achievements = () => {
     {
       icon: 'fas fa-award',
       title: 'Dean\'s Honors Award (Multiple Terms)',
-      description: 'Recognized on the Dean\'s Honors List for academic excellence (Top 15% of academic group) across multiple terms: Fall \'21, Winter \'22, Spring \'22, Fall \'22, Fall \'23.',
+      description: 'Recognized on the Dean\'s Honors List for academic excellence (Top 15% of academic group) across multiple terms.',
       date: '2021 - 2023'
-    },
-    {
-      icon: 'fas fa-trophy',
-      title: 'CruzHacks 2022 Best Design Award',
-      description: 'Won the Best Design Award at CruzHacks 2022 for developing Serene, an AI-driven mental health support chatbot with innovative design and user experience.',
-      date: '2022'
     }
   ];
 

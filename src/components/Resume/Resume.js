@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <section id="resume" className="resume">
       <div className="container">
-        <h2 className="section-title">Download My Resume</h2>
+        <h2 className="section-title">View My Resume</h2>
         <p className="section-description">
           Get a comprehensive overview of my experience, skills, and accomplishments.
         </p>
@@ -13,14 +13,13 @@ const Resume = () => {
         <div className="resume-content">
           <div className="resume-buttons">
             <a 
-              href={process.env.PUBLIC_URL + "/resume.pdf"} 
+              href={process.env.PUBLIC_URL + "/Resume_Prathik_Kallepalli.pdf"} 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-primary resume-btn"
-              download="Prathik_Kallepalli_Resume.pdf"
             >
-              <i className="fas fa-download"></i>
-              Download Resume
+              <i className="fas fa-external-link-alt"></i>
+              View Resume
             </a>
             <a 
               href="https://www.linkedin.com/in/prathik-kallepalli-4aa267242/" 

@@ -4,7 +4,7 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Full Stack Engineer I, Returns, Repairs, Replacements (RRR)',
+      title: 'Software Engineer - Returns, Repairs, Replacements (RRR)',
       company: 'Cisco Systems',
       duration: 'July 2025 - Present',
       location: 'San Jose, CA',

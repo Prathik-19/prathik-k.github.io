@@ -40,13 +40,8 @@ const Navbar = () => {
     setIsMobileMenuOpen(false);
   };
 
-  const downloadResume = () => {
-    const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Prathik_Kallepalli_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const openResume = () => {
+    window.open('/Resume_Prathik_Kallepalli.pdf', '_blank');
   };
 
   return (
@@ -74,8 +69,8 @@ const Navbar = () => {
           <a href="#contact" className="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>
             Contact
           </a>
-          <button className="resume-btn" onClick={downloadResume}>
-            <i className="fas fa-download"></i>
+          <button className="resume-btn" onClick={openResume}>
+            <i className="fas fa-external-link-alt"></i>
             Resume
           </button>
         </div>

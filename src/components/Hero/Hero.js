@@ -75,10 +75,10 @@ const Hero = () => {
             </span>
             <span className="typing-cursor">|</span>
           </h1>
-          <p className="hero-subtitle">Software Engineer & Data Scientist</p>
+          <p className="hero-subtitle">Software Engineer & AI Researcher</p>
           <p className="hero-description">
             Passionate about creating innovative solutions through code and AI-driven insights. 
-            Currently working at Cisco Systems as a Full Stack Engineer, building internal tools 
+            Currently working at Cisco Systems as a Software Engineer, building internal tools 
             for global logistics workflows and developing AI-powered virtual assistants.
           </p>
           <div className="hero-buttons">

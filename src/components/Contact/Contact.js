@@ -22,10 +22,6 @@ const Contact = () => {
                 <span>prathikvarmak@gmail.com</span>
               </div>
               <div className="contact-method">
-                <i className="fas fa-phone"></i>
-                <span>408-717-3714</span>
-              </div>
-              <div className="contact-method">
                 <i className="fas fa-map-marker-alt"></i>
                 <span>Tracy, CA</span>
               </div>

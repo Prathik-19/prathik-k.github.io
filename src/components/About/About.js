@@ -4,7 +4,7 @@ import './About.css';
 const About = () => {
   const skills = {
     'Programming Languages': [
-      'Python (4yrs)', 'C/C++ (2yrs)', 'Java (1yr)', 'SQL (Postgres)', 'HTML/CSS/JavaScript', 'Haskell', 'Swift', 'RISC-V'
+      'Python', 'C/C++', 'Java', 'SQL (Postgres)', 'HTML/CSS/JavaScript', 'Haskell', 'Swift', 'RISC-V'
     ],
     'Frameworks & Tools': [
       'React', 'Vue.js', 'Flask', 'WordPress', 'Firebase', 'Django', 'TensorFlow', 'PyTorch', 'Kubernetes', 'REST API'
@@ -25,7 +25,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate Full Stack Engineer with a strong foundation in computer science 
+              I'm a passionate Software Engineer with a strong foundation in computer science 
               and expertise in AI-driven solutions. Currently working at Cisco Systems, I develop 
               full-stack internal tools and AI-powered systems for global logistics workflows.
             </p>
@@ -38,16 +38,18 @@ const About = () => {
             </p>
             
             <p>
-              My experience spans from AI research and tutoring at UCSC to software engineering internships 
-              at YourBookTeam. I'm passionate about creating innovative solutions that bridge AI and 
-              practical applications, with expertise in full-stack development, machine learning, and 
-              natural language processing.
+              My experience spans from AI research and tutoring at UCSC to software engineering roles 
+              in enterprise environments. I'm particularly interested in the intersection of artificial 
+              intelligence and practical business applications, with a focus on developing scalable 
+              solutions that leverage modern cloud technologies and automation.
             </p>
             
             <p>
-              Beyond coding, I'm actively involved in the tech community through hackathons like CruzHacks, 
-              where I won the Best Design Award, and contributing to open-source projects. I believe in 
-              continuous learning and applying cutting-edge technology to solve real-world problems.
+              Looking ahead, I'm excited about the evolving landscape of AI and machine learning, 
+              especially in areas like prompt engineering and enterprise AI integration. My goal is 
+              to continue building innovative solutions that bridge cutting-edge technology with 
+              real-world business needs, while expanding my expertise in cloud-native architectures 
+              and AI-powered automation systems.
             </p>
           </div>
           
